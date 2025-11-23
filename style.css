@@ -687,6 +687,25 @@ section {
     font-size: 0.9rem;
 }
 
+/* Testimonials Grid */
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.testimonials-grid .testimonial-card {
+    max-width: 100%;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonials-grid .testimonial-text {
+    font-size: 1.1rem;
+}
+
 /* Contact Section */
 .contact-wrapper {
     display: grid;
